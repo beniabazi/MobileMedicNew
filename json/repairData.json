@@ -1,0 +1,757 @@
+{
+    "Apple": {
+      "iPhone": {
+        "8": {
+          "Screen Repair": "$99",
+          "Back Glass": "$99",
+          "Battery Replacement": "$69",
+          "Charging Port": "$75",
+          "Microphone": "$75",
+          "Ear Speaker": "$75",
+          "Home Button (No Touch ID)": "$75",
+          "Loud Speaker": "$75",
+          "Back Camera": "$129",
+          "Front Camera": "$99",
+          "Camera Lens": "$49",
+          "Housing Replacement": "$149"
+        },
+        "8 Plus": {
+          "Screen Repair": "$99",
+          "Back Glass": "$99",
+          "Battery Replacement": "$69",
+          "Charging Port": "$99",
+          "Microphone": "$99",
+          "Ear Speaker": "$75",
+          "Home Button (No Touch ID)": "$75",
+          "Loud Speaker": "$75",
+          "Back Camera": "$175",
+          "Front Camera": "$99",
+          "Camera Lens": "$75",
+          "Housing Replacement": "$149"
+        },
+        "X": {
+          "Screen Repair": "$99",
+          "Back Glass": "$99",
+          "Battery Replacement": "$99",
+          "Charging Port": "$119",
+          "Microphone": "$119",
+          "Ear Speaker": "$119",
+          "Loud Speaker": "$119",
+          "Back Camera": "$145",
+          "Front Camera (Without Face ID)": "$129",
+          "Camera Lens": "$75",
+          "Housing Replacement": "$149"
+        },
+        "XR": {
+          "Screen Repair": "$99",
+          "Back Glass": "$99",
+          "Battery Replacement": "$89",
+          "Charging Port": "$99",
+          "Microphone": "$99",
+          "Ear Speaker": "$99",
+          "Loud Speaker": "$99",
+          "Back Camera": "$129",
+          "Front Camera (Without Face ID)": "$129",
+          "Camera Lens": "$49",
+          "Housing Replacement": "$149"
+        },
+        "XS": {
+          "Screen Repair": "$99",
+          "Back Glass": "$99",
+          "Battery Replacement": "$89",
+          "Charging Port": "$119",
+          "Microphone": "$119",
+          "Ear Speaker": "$119",
+          "Loud Speaker": "$119",
+          "Back Camera": "$149",
+          "Front Camera (Without Face ID)": "$129",
+          "Camera Lens": "$69",
+          "Housing Replacement": "$149"
+        },
+        "XS Max": {
+          "Screen Repair": "$109",
+          "Back Glass": "$119",
+          "Battery Replacement": "$99",
+          "Charging Port": "$119",
+          "Microphone": "$119",
+          "Ear Speaker": "$99",
+          "Loud Speaker": "$99",
+          "Back Camera": "$149",
+          "Front Camera (Without Face ID)": "$129",
+          "Camera Lens": "$79",
+          "Housing Replacement": "$179"
+        },
+        "SE (1st Gen)": {
+          "Screen Repair": "$99",
+          "Back Glass": "$99",
+          "Battery Replacement": "$79",
+          "Charging Port": "$99",
+          "Home Button (No Touch ID)": "$79",
+          "Microphone": "$99",
+          "Ear Speaker": "$79",
+          "Loud Speaker": "$79",
+          "Back Camera": "$129",
+          "Front Camera": "$79",
+          "Camera Lens": "$49",
+          "Housing Replacement": "$149"
+        },
+        "11": {
+          "Screen Repair": "$99",
+          "Back Glass": "$129",
+          "Battery Replacement": "$99",
+          "Back Camera": "$149",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$119",
+          "Microphone": "$119",
+          "Ear Speaker": "$99",
+          "Loud Speaker": "$99",
+          "Housing Replacement": "$149"
+        },
+        "11 Pro": {
+          "Screen Repair": "$119",
+          "Back Glass": "$149",
+          "Battery Replacement": "$119",
+          "Back Camera": "$149",
+          "Front Camera (Without Face ID)": "$129",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$99",
+          "Loud Speaker": "$99",
+          "Housing Replacement": "$249"
+        },
+        "11 Pro MAX": {
+          "Screen Repair": "$129",
+          "Back Glass": "$149",
+          "Battery Replacement": "$119",
+          "Back Camera": "$199",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$75",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$99",
+          "Loud Speaker": "$99",
+          "Housing Replacement": "$249"
+        },
+        "12 Mini": {
+          "Screen Repair": "$179",
+          "Back Glass": "$199",
+          "Battery Replacement": "$149",
+          "Back Camera": "$199",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$75",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "12": {
+          "Screen Repair": "$139",
+          "Back Glass": "$119",
+          "Battery Replacement": "$139",
+          "Back Camera": "$199",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$75",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "12 Pro": {
+          "Screen Repair": "$149",
+          "Back Glass": "$119",
+          "Battery Replacement": "$139",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "12 Pro MAX": {
+          "Screen Repair": "$159",
+          "Back Glass": "$119",
+          "Battery Replacement": "$139",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "13": {
+          "Screen Repair": "$149",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$199",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "13 Mini": {
+          "Screen Repair": "$159",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$199",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$249"
+        },
+        "13 Pro": {
+          "Screen Repair": "$279",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "13 Pro MAX": {
+          "Screen Repair": "$299",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "14": {
+          "Screen Repair": "$149",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$199",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "14 Plus": {
+          "Screen Repair": "$159",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$199",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$249"
+        },
+        "14 Pro": {
+          "Screen Repair": "$299",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "14 Pro MAX": {
+          "Screen Repair": "$319",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "15": {
+          "Screen Repair": "$249",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$199",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "15 Plus": {
+          "Screen Repair": "$279",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$199",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$249"
+        },
+        "15 Pro": {
+          "Screen Repair": "$279",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        },
+        "15 Pro MAX": {
+          "Screen Repair": "$299",
+          "Back Glass": "$139",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera (Without Face ID)": "$149",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Microphone": "$149",
+          "Ear Speaker": "$149",
+          "Loud Speaker": "$149",
+          "Housing Replacement": "$299"
+        }
+      },
+      "iPad": {}
+    },
+    "Samsung": {
+      "Galaxy": {
+        "S10": {
+          "Screen Repair": "$329",
+          "Back Glass": "$79",
+          "Battery Replacement": "$79",
+          "Back Camera": "$99",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S10e": {
+          "Screen Repair": "$319",
+          "Back Glass": "$79",
+          "Battery Replacement": "$79",
+          "Back Camera": "$99",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S10 Plus": {
+          "Screen Repair": "$399",
+          "Back Glass": "$79",
+          "Battery Replacement": "$99",
+          "Back Camera": "$99",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S20": {
+          "Screen Repair": "$349",
+          "Back Glass": "$79",
+          "Battery Replacement": "$99",
+          "Back Camera": "$99",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S20 FE": {
+          "Screen Repair": "$249",
+          "Back Glass": "$79",
+          "Battery Replacement": "$99",
+          "Back Camera": "$99",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S20 Plus": {
+          "Screen Repair": "$379",
+          "Back Glass": "$79",
+          "Battery Replacement": "$99",
+          "Back Camera": "$99",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S20 Ultra": {
+          "Screen Repair": "$399",
+          "Back Glass": "$79",
+          "Battery Replacement": "$99",
+          "Back Camera": "$99",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S21": {
+          "Screen Repair": "$369",
+          "Back Glass": "$89",
+          "Battery Replacement": "$119",
+          "Back Camera": "$149",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S21 FE": {
+          "Screen Repair": "$369",
+          "Back Glass": "$89",
+          "Battery Replacement": "$119",
+          "Back Camera": "$149",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S21 Plus": {
+          "Screen Repair": "$429",
+          "Back Glass": "$89",
+          "Battery Replacement": "$119",
+          "Back Camera": "$149",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S21 Ultra": {
+          "Screen Repair": "$449",
+          "Back Glass": "$89",
+          "Battery Replacement": "$119",
+          "Back Camera": "$149",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S22": {
+          "Screen Repair": "$329",
+          "Back Glass": "$89",
+          "Battery Replacement": "$129",
+          "Back Camera": "$169",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S22 Plus": {
+          "Screen Repair": "$359",
+          "Back Glass": "$89",
+          "Battery Replacement": "$129",
+          "Back Camera": "$169",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S22 Ultra": {
+          "Screen Repair": "$399",
+          "Back Glass": "$89",
+          "Battery Replacement": "$129",
+          "Back Camera": "$169",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S23": {
+          "Screen Repair": "$349",
+          "Back Glass": "$89",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera": "$129",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Loud Speaker": "$89"
+        },
+        "S23 FE": {
+          "Screen Repair": "$349",
+          "Back Glass": "$89",
+          "Battery Replacement": "$149",
+          "Back Camera": "$249",
+          "Front Camera": "$129",
+          "Camera Lens": "$79",
+          "Charging Port": "$149",
+          "Loud Speaker": "$89"
+        },
+        "S23 Plus": {
+          "Screen Repair": "$429",
+          "Back Glass": "$89",
+          "Battery Replacement": "$159",
+          "Back Camera": "$249",
+          "Front Camera": "$159",
+          "Camera Lens": "$89",
+          "Charging Port": "$149",
+          "Loud Speaker": "$89"
+        },
+        "S23 Ultra": {
+          "Screen Repair": "$479",
+          "Back Glass": "$99",
+          "Battery Replacement": "$179",
+          "Back Camera": "$249",
+          "Front Camera": "$159",
+          "Camera Lens": "$89",
+          "Charging Port": "$149",
+          "Loud Speaker": "$89"
+        },
+        "S24": {
+          "Screen Repair": "$369",
+          "Back Glass": "$89",
+          "Battery Replacement": "$119",
+          "Back Camera": "$149",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S24 Plus": {
+          "Screen Repair": "$479",
+          "Back Glass": "$89",
+          "Battery Replacement": "$129",
+          "Back Camera": "$149",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        },
+        "S24 Ultra": {
+          "Screen Repair": "$549",
+          "Back Glass": "$89",
+          "Battery Replacement": "$119",
+          "Back Camera": "$149",
+          "Front Camera": "$119",
+          "Camera Lens": "$59",
+          "Charging Port": "$129",
+          "Loud Speaker": "$89"
+        }
+      },
+      "Note": {
+        "10": {
+          "Screen Repair": "$399",
+          "Back Glass": "$79",
+          "Battery Replacement": "$99",
+          "Back Camera": "$129",
+          "Front Camera": "$99",
+          "Camera Lens": "$69",
+          "Charging Port": "$89",
+          "Ear Speaker": "$89",
+          "Loud Speaker": "$99"
+        },
+        "10 Plus": {
+          "Screen Repair": "$499",
+          "Back Glass": "$89",
+          "Battery Replacement": "$99",
+          "Back Camera": "$129",
+          "Front Camera": "$99",
+          "Camera Lens": "$69",
+          "Charging Port": "$99",
+          "Ear Speaker": "$89",
+          "Loud Speaker": "$99"
+        },
+        "20": {
+          "Screen Repair": "$399",
+          "Back Glass": "$79",
+          "Battery Replacement": "$99",
+          "Back Camera": "$129",
+          "Front Camera": "$99",
+          "Camera Lens": "$69",
+          "Charging Port": "$89",
+          "Ear Speaker": "$89",
+          "Loud Speaker": "$99"
+        },
+        "20 Ultra": {
+          "Screen Repair": "$449",
+          "Back Glass": "$79",
+          "Battery Replacement": "$99",
+          "Back Camera": "$129",
+          "Front Camera": "$99",
+          "Camera Lens": "$69",
+          "Charging Port": "$89",
+          "Ear Speaker": "$89",
+          "Loud Speaker": "$99"
+        }
+      },
+      "Fold": {
+        "Z Fold 2": {
+          "Outer Screen Repair": "$299",
+          "Inner Screen Repair": "$789",
+          "Back Glass": "$89",
+          "Battery Replacement": "$189",
+          "Back Camera": "$289",
+          "Front Camera": "$219",
+          "Camera Lens": "$89",
+          "Charging Port": "$129",
+          "Ear Speaker": "$189",
+          "Loud Speaker": "$189"
+        },
+        "Z Fold 3": {
+          "Outer Screen Repair": "$299",
+          "Inner Screen Repair": "$799",
+          "Back Glass": "$89",
+          "Battery Replacement": "$189",
+          "Back Camera": "$289",
+          "Front Camera": "$219",
+          "Camera Lens": "$89",
+          "Charging Port": "$129",
+          "Ear Speaker": "$189",
+          "Loud Speaker": "$189"
+        },
+        "Z Fold 4": {
+          "Outer Screen Repair": "$329",
+          "Inner Screen Repair": "$849",
+          "Back Glass": "$89",
+          "Battery Replacement": "$189",
+          "Back Camera": "$289",
+          "Front Camera": "$219",
+          "Camera Lens": "$89",
+          "Charging Port": "$129",
+          "Ear Speaker": "$189",
+          "Loud Speaker": "$189"
+        },
+        "Z Fold 5": {
+          "Outer Screen Repair": "$349",
+          "Inner Screen Repair": "$999",
+          "Back Glass": "$89",
+          "Battery Replacement": "$199",
+          "Back Camera": "$289",
+          "Front Camera": "$219",
+          "Camera Lens": "$89",
+          "Charging Port": "$129",
+          "Ear Speaker": "$189",
+          "Loud Speaker": "$189"
+        }
+      },
+      "Flip": {
+        "Z Flip 3": {
+          "Outer Screen Repair": "$199",
+          "Inner Screen Repair": "$529",
+          "Back Glass": "$89",
+          "Battery Replacement": "$169",
+          "Back Camera": "$139",
+          "Front Camera": "$119",
+          "Camera Lens": "$89",
+          "Charging Port": "$129",
+          "Ear Speaker": "$119",
+          "Loud Speaker": "$139"
+        },
+        "Z Flip 4": {
+          "Outer Screen Repair": "$229",
+          "Inner Screen Repair": "$549",
+          "Back Glass": "$89",
+          "Battery Replacement": "$169",
+          "Back Camera": "$139",
+          "Front Camera": "$119",
+          "Camera Lens": "$89",
+          "Charging Port": "$129",
+          "Ear Speaker": "$119",
+          "Loud Speaker": "$139"
+        },
+        "Z Flip 5": {
+          "Outer Screen Repair": "$249",
+          "Inner Screen Repair": "$569",
+          "Back Glass": "$89",
+          "Battery Replacement": "$169",
+          "Back Camera": "$139",
+          "Front Camera": "$119",
+          "Camera Lens": "$89",
+          "Charging Port": "$129",
+          "Ear Speaker": "$119",
+          "Loud Speaker": "$139"
+        }
+      }
+    },
+    "Google": {
+      "Pixel": {
+        "6": {
+          "Screen Repair": "$359",
+          "Housing Replacement": "$149",
+          "Battery Replacement": "$119",
+          "Front Camera": "$169",
+          "Rear Camera": "$229",
+          "Charging Port": "$199"
+        },
+        "6a": {
+          "Screen Repair": "$359",
+          "Housing Replacement": "$149",
+          "Battery Replacement": "$119",
+          "Front Camera": "$169",
+          "Rear Camera": "$229",
+          "Charging Port": "$199"
+        },
+        "6 Pro": {
+          "Screen Repair": "$549",
+          "Housing Replacement": "$189",
+          "Battery Replacement": "$229",
+          "Front Camera": "$169",
+          "Rear Camera": "$229",
+          "Charging Port": "$199"
+        },
+        "7": {
+          "Screen Repair": "$349",
+          "Housing Replacement": "$189",
+          "Battery Replacement": "$199",
+          "Front Camera": "$169",
+          "Rear Camera": "$249",
+          "Charging Port": "$199"
+        },
+        "7 Pro": {
+          "Screen Repair": "$499",
+          "Housing Replacement": "$229",
+          "Battery Replacement": "$199",
+          "Front Camera": "$229",
+          "Rear Camera": "$289",
+          "Charging Port": "$249"
+        },
+        "8": {
+          "Screen Repair": "$349",
+          "Housing Replacement": "$249",
+          "Battery Replacement": "$289",
+          "Front Camera": "$249",
+          "Rear Camera": "$399",
+          "Charging Port": "$229"
+        },
+        "8 Pro": {
+          "Screen Repair": "$529",
+          "Housing Replacement": "$249",
+          "Battery Replacement": "$289",
+          "Front Camera": "$169",
+          "Rear Camera": "$229",
+          "Charging Port": "$199"
+        }
+      }
+    }
+  }
+  

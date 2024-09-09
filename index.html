@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fast mobile phone repairs in Melbourne. Specializing in iPhone, Samsung, and other major brands. On-site service for screen, battery, and water damage repairs. We come to your location." />
+    <meta name="keywords" content="Mobile phone repair Melbourne, Tullamarine, iPhone repair, Samsung repair, Google Pixel repair, phone screen repair, phone battery replacement, phone water damage repair, mobile repair Northern Suburbs, mobile repair Western Suburbs, Essendon, Broadmeadows, Sunbury, Craigieburn" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+    
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <title>Phone Repair in Melbourne | iPhone & Samsung Repairs - Mobile Medic</title>
+
+    <!-- Local Business Schema Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobilePhoneRepairService",
+        "name": "Mobile Medic",
+        "image": "https://mobilemedic.au/assets/img/Logo_4.png",
+        "@id": "https://mobilemedic.au",
+        "url": "https://mobilemedic.au",
+        "telephone": "+61 466 855 790",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Your Street Address",
+          "addressLocality": "Tullamarine",
+          "addressRegion": "VIC",
+          "postalCode": "3043",
+          "addressCountry": "AU"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -37.701,
+          "longitude": 144.8876
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      }
+    </script>
+</head>
+
+
+
+<body>
+  
+   
+<!--=================== HERO SECTION ======================== -->
+<section class="hero">
+      <div class="hero__container">
+
+<!--=================== LEFT SECTION ======================== -->
+<div class="hero__left">
+   <h1>Fast and Reliable Mobile Phone Repair Services in Melbourne</h1>
+   <p>At <strong>Mobile Medic</strong>, we offer expert <strong>mobile phone repair services</strong> across <strong>Melbourne</strong>. 
+     Our certified technicians can fix your phone on the spot—whether it’s a cracked screen, faulty battery, or water damage. 
+     We come directly to your location, providing <strong>doorstep repair services</strong> with no hidden fees. Trust us for fast, 
+     reliable repairs that will have your device working like new again.</p>
+ </div>
+ 
+    
+
+<!--=================== CENTER SECTION ======================== -->
+
+<div class="hero__center">
+   <div class="phone-container">
+       <div class="image-section">
+           <img src="/img/med_emg.png" alt="Highlighted Image">
+       </div>
+<!-- Icons Grid Inside Phone -->
+       <div class="icon-grid">
+
+
+<!-- ========================First Row=============================--->
+<!-- Repairs -->
+      <div class="icon" data-target="repairsOverlay">
+         <i class="ri-tools-line"></i>
+         <span>Services</span>
+      </div>
+
+      <div id="repairsOverlay" class="overlay">
+         <div class="overlay-content">
+            <span class="close" onclick="closeOverlay()">&times;</span>
+            <h2>Services</h2>
+               <!-- Comments for On-Site Repair -->
+               <p><strong>On-Site Repair:</strong> Choose this option to book a technician who will come to your location and repair your phone on the spot. Available across Melbourne and surrounding suburbs.</p>
+      
+               <!-- Button for On-Site Repair -->
+               <div class="repair-options">
+                  <button class="btn" onclick="bookRepair()">Book a Repair</button>
+               </div>
+      
+               <!-- Comments for Mail-In Repair -->
+               <p><strong>Mail-In Repair Service:</strong> Select this option to send your phone to us for repair. We will fix your device and return it to you by mail, fast and hassle-free.</p>
+      
+               <!-- Button for Mail-In Repair -->
+               <div class="repair-options">
+                  <button class="btn" onclick="mailInRepair()">Mail-In Repair Service</button>
+               </div>
+            </div>
+         </div>
+
+<!-- Prices -->
+      <div class="icon" data-target="pricesOverlay">
+         <i class="ri-money-dollar-circle-line"></i>
+         <span>Prices</span>
+      </div>
+        
+       <div id="pricesOverlay" class="overlay">
+         <div class="overlay-content">
+            <span class="close">&times;</span>
+            <h2>Select a Repair Service</h2>
+            <form>
+               <div>
+                  <label>Select Brand:</label>
+                  <select id="brandSelect">
+                    <option value="">-- Select a brand --</option>
+                  </select>
+               </div>
+               <div>
+                  <label>Select Model:</label>
+                  <select id="modelSelect" disabled>
+                    <option value="">-- Select a model --</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Select Generation:</label>
+                  <select id="generationSelect" disabled>
+                    <option value="">-- Select a generation --</option>
+                  </select>
+               </div>
+               <div>
+                  <label>Select Repair Service:</label>
+                  <select id="repairSelect" disabled>
+                    <option value="">-- Select a repair service --</option>
+                  </select>
+               </div>
+                <!-- This is where the price will be displayed -->
+                <p id="priceDisplay">Price: </p>
+            </form>
+         </div>
+      </div>
+     
+<!-- Service Areas -->
+      <div class="icon" data-target="serviceAreasOverlay">
+         <i class="ri-map-pin-line"></i>
+         <span>Service Areas</span>
+      </div>
+        
+      <div id="serviceAreasOverlay" class="overlay">
+         <div class="overlay-content">
+            <span class="close" onclick="closeOverlay()">&times;</span>
+            <h2>Service Areas</h2>
+            
+            <!-- Melbourne CBD Dropdown -->
+            <button class="dropdown" onclick="toggleDropdown(this)">Melbourne CBD</button>
+            <div class="dropdown-content">
+               <ul>
+                     <li>Carlton - 3053</li>
+                     <li>Docklands - 3008</li>
+                     <li>East Melbourne - 3002</li>
+                     <li>Flemington - 3031</li>
+                     <li>Melbourne - 3000</li>
+                     <li>North Melbourne - 3051</li>
+                     <li>Parkville - 3052</li>
+                     <li>South Wharf - 3006</li>
+                     <li>Southbank - 3006</li>
+                     <li>West Melbourne - 3003</li>
+               </ul>
+            </div>
+            
+            <!-- Northern Suburbs Dropdown -->
+            <button class="dropdown" onclick="toggleDropdown(this)">Northern Suburbs</button>
+            <div class="dropdown-content">
+               <ul>
+                     <li>Broadmeadows - 3047</li>
+                     <li>Brunswick - 3056</li>
+                     <li>Bundoora - 3083</li>
+                     <li>Campbellfield - 3061</li>
+                     <li>Craigieburn - 3064</li>
+                     <li>Coburg - 3058</li>
+                     <li>Coolaroo - 3048</li>
+                     <li>Essendon - 3040</li>
+                     <li>Fairfield - 3078</li>
+                     <li>Fawkner - 3060</li>
+                     <li>Fitzroy - 3065</li>
+                     <li>Glenroy - 3046</li>
+                     <li>Hadfield - 3046</li>
+                     <li>Heidelberg - 3084</li>
+                     <li>Ivanhoe - 3079</li>
+                     <li>Keilor - 3036</li>
+                     <li>Kingsbury - 3083</li>
+                     <li>Mill Park - 3082</li>
+                     <li>North Melbourne - 3051</li>
+                     <li>Oak Park - 3046</li>
+                     <li>Pascoe Vale - 3044</li>
+                     <li>Preston - 3072</li>
+                     <li>Reservoir - 3073</li>
+                     <li>Roxburgh Park - 3064</li>
+                     <li>Sunbury - 3429</li>
+                     <li>Thomastown - 3074</li>
+                     <li>Thornbury - 3071</li>
+                     <li>Tullamarine - 3043</li>
+               </ul>
+            </div>
+            
+            <!-- Western Suburbs Dropdown -->
+            <button class="dropdown" onclick="toggleDropdown(this)">Western Suburbs</button>
+            <div class="dropdown-content">
+               <ul>
+                     <li>Albion - 3020</li>
+                     <li>Altona - 3018</li>
+                     <li>Ardeer - 3022</li>
+                     <li>Brooklyn - 3012</li>
+                     <li>Burnside - 3023</li>
+                     <li>Caroline Springs - 3023</li>
+                     <li>Deer Park - 3023</li>
+                     <li>Derrimut - 3030</li>
+                     <li>Footscray - 3011</li>
+                     <li>Hillside - 3037</li>
+                     <li>Hoppers Crossing - 3029</li>
+                     <li>Keilor East - 3033</li>
+                     <li>Laverton - 3028</li>
+                     <li>Laverton North - 3026</li>
+                     <li>Manor Lakes - 3024</li>
+                     <li>Maribyrnong - 3032</li>
+                     <li>Melton - 3337</li>
+                     <li>Newport - 3015</li>
+                     <li>Point Cook - 3030</li>
+                     <li>Seabrook - 3028</li>
+                     <li>St Albans - 3021</li>
+                     <li>Sunshine - 3020</li>
+                     <li>Sydenham - 3037</li>
+                     <li>Tarneit - 3029</li>
+                     <li>Taylors Lakes - 3038</li>
+                     <li>Truganina - 3029</li>
+                     <li>Werribee - 3030</li>
+                     <li>Williamstown - 3016</li>
+                     <li>Yarraville - 3013</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+        
+        
+<!-- FAQ -->
+        <div class="icon" data-target="faqOverlay">
+            <i class="ri-question-line"></i>
+            <span>FAQ</span>
+        </div>
+
+        <div id="faqOverlay" class="overlay">
+            <div class="overlay-content">
+               <span class="close" onclick="closeOverlay()">&times;</span>
+               <h2>FAQ</h2>
+               <p>Have questions? Check out our frequently asked questions to learn more about our repair process and services.</p>
+
+               <!-- FAQ Section with Scrollbar -->
+               <div class="faq-content">
+                  <h3>1. How long does a typical repair take?</h3>
+                  <p>Most repairs are completed in under an hour for on-site services. Mail-in repairs are usually processed and returned within 3-5 business days.</p>
+
+                  <h3>2. What types of phones do you repair?</h3>
+                  <p>We repair most major phone brands, including iPhones, Samsung, Google Pixel, and more. Contact us if you're unsure if your device is covered.</p>
+
+                  <h3>3. Is there a warranty on the repairs?</h3>
+                  <p>Yes, all of our repairs come with a 6-month warranty covering parts and labor. If you experience any issues after the repair, we will fix it free of charge.</p>
+
+                  <h3>4. What payment methods do you accept?</h3>
+                  <p>We accept cash, credit cards, Afterpay and major mobile payment services such as Apple Pay and Google Pay. Payments can be made upon completion of the repair for on-site services or online for mail-in repairs.</p>
+
+                  <h3>5. How do I prepare my phone for a mail-in repair?</h3>
+                  <p>Before sending your phone, ensure you back up your data, remove any personal information, and disable any security features like Find My iPhone or Google’s Find My Device. Package your phone securely to avoid damage during transit.</p>
+
+                  <h3>6. Can I cancel or reschedule my repair appointment?</h3>
+                  <p>Yes, you can cancel or reschedule your appointment up to 24 hours before the scheduled time without any charge. Just contact us, and we’ll be happy to assist.</p>
+               </div>
+            </div>
+         </div>
+
+        
+<!-- ========================Second Row=============================--->
+<!-- Phone Call Link -->
+         <div class="icon">
+            <a href="tel:+61466855790">
+               <i class="ri-phone-line"></i>
+            </a>
+            <span>Call Us</span>
+         </div>
+
+<!-- WhatsApp Link -->
+         <div class="icon">
+            <a href="https://wa.me/+61466855790" target="_blank">
+               <i class="ri-whatsapp-line"></i>
+            </a>
+            <span>WhatsApp</span>
+         </div>
+
+<!-- Messenger Link -->
+         <div class="icon">
+            <a href="https://m.me/beniforeal" target="_blank">
+               <i class="ri-messenger-line"></i>
+            </a>
+            <span>Messenger</span>
+         </div>
+
+<!-- Email Link -->
+         <div class="icon">
+            <a href="mailto:admin@mobilemedic.au" target="_blank">
+               <i class="ri-mail-line"></i>
+            </a>
+            <span>Email</span>
+         </div>
+
+<!-- ========================Third Row=============================--->
+<!-- Customer Information Row -->
+ 
+<!-- Testimonials Icon Trigger -->
+<div class="icon" data-target="testimonialsOverlay">
+   <i class="ri-star-line"></i>
+   <span>Testimonials</span>
+</div>
+
+<!-- Testimonials Modal -->
+<div id="testimonialsOverlay" class="overlay">
+   <div class="overlay-content">
+      <span class="close">&times;</span>
+      <h2>Customer Testimonials</h2>
+      <p>See what our customers are saying about their experiences with Mobile Medic. We pride ourselves on customer satisfaction and are committed to delivering high-quality service to everyone.</p>
+      
+      <!-- Testimonial List -->
+      <div class="testimonials-list">
+         <!-- Testimonial 1 -->
+         <div class="testimonial">
+            <div class="testimonial-header">
+               <h3>John</h3>
+               <div class="rating">★★★★★</div>
+            </div>
+            <p>"Great service! My iPhone was fixed in under an hour and they came to my house. Very professional!"</p>
+         </div>
+
+         <!-- Testimonial 2 -->
+         <div class="testimonial">
+            <div class="testimonial-header">
+               <h3>Jane</h3>
+               <div class="rating">★★★★★</div>
+            </div>
+            <p>"I was really worried about my phone, but the team at Mobile Medic was so helpful. Affordable prices and great service. Thank you!"</p>
+         </div>
+
+         <!-- Testimonial 3 -->
+         <div class="testimonial">
+            <div class="testimonial-header">
+               <h3>Mark</h3>
+               <div class="rating">★★★★★</div>
+            </div>
+            <p>"Fast and convenient! I didn’t have to leave my office to get my phone fixed. Highly recommend them for quick repairs."</p>
+         </div>
+
+         <!-- Testimonial 4 -->
+         <div class="testimonial">
+            <div class="testimonial-header">
+               <h3>Ayesha</h3>
+               <div class="rating">★★★★★</div>
+            </div>
+            <p>"Excellent customer service and a fast turnaround. I got my screen replaced and it's working perfectly again."</p>
+         </div>
+
+         <!-- Testimonial 5 -->
+         <div class="testimonial">
+            <div class="testimonial-header">
+               <h3>Nguyen</h3>
+               <div class="rating">★★★★★</div>
+            </div>
+            <p>"Super impressed by their professionalism and speed. My phone was repaired on the same day, and they were really transparent about the process."</p>
+         </div>
+
+         <!-- Testimonial 6 -->
+         <div class="testimonial">
+            <div class="testimonial-header">
+               <h3>Maria</h3>
+               <div class="rating">★★★★★</div>
+            </div>
+            <p>"The technician was so patient and explained everything to me. My phone works like new now. I would highly recommend Mobile Medic to anyone!"</p>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+<!-- Warranty -->
+         <div class="icon" data-target="warrantyOverlay">
+            <i class="ri-shield-check-line"></i>
+            <span>Warranty</span>
+         </div>
+         <div id="warrantyOverlay" class="overlay">
+            <div class="overlay-content">
+               <span class="close">&times;</span>
+               <h2>Warranty Terms & Conditions</h2>
+               <p>At Mobile Medic, we are committed to providing the highest quality of service. All repairs performed by our technicians come with a 6-month limited warranty. This warranty covers defects in parts and workmanship related to the repair performed on your device.</p>
+               
+               <h3>What Our Warranty Covers:</h3>
+               <ul>
+                 <li>Replacement parts used during the repair process, including screens, batteries, and internal components.</li>
+                 <li>Labor costs associated with resolving any issues related to the original repair.</li>
+               </ul>
+               
+               <h3>What Our Warranty Does Not Cover:</h3>
+               <ul>
+                 <li>Any new damage caused by physical impact, water exposure, or mishandling after the repair has been completed.</li>
+                 <li>Issues unrelated to the original repair, such as damage to other components.</li>
+                 <li>Malfunctions caused by software issues or third-party modifications.</li>
+               </ul>
+               
+               <h3>How to Claim Your Warranty:</h3>
+               <p>If you experience an issue with your repaired device that falls under the warranty coverage, please contact us immediately at <a href="mailto:admin@mobilemedic.au">admin@mobilemedic.au</a> or call us at <strong>+61 466 855 790</strong>. We will assess the problem and, if eligible, offer a repair at no additional cost.</p>
+               
+               <p>Please note that the warranty is only valid for the specific repair performed and does not extend to other parts of the device.</p>
+               
+            </div>
+         </div>
+
+<!-- Support -->
+         <div class="icon" data-target="supportOverlay">
+            <i class="ri-customer-service-2-line"></i>
+            <span>Support</span>
+         </div>
+         <div id="supportOverlay" class="overlay">
+            <div class="overlay-content">
+               <span class="close">&times;</span>
+               <h2>Support</h2>
+               <p>If you require assistance with your repair or have any questions regarding our services, our dedicated support team is ready to help. Whether you are experiencing issues with a recent repair or have general inquiries, we are committed to providing timely and effective solutions. Please don’t hesitate to reach out—we are here to ensure your complete satisfaction.</p>
+
+               <div class="support-buttons">
+                  <a href="tel:+61466855790" class="btn call-us">Call Us</a>
+                  <a href="sms:+61466855790" class="btn message-us">Message Us</a>
+                </div>
+            </div>
+         </div>
+
+<!-- Offers Icon Trigger -->
+<div class="icon" data-target="offersOverlay">
+   <i class="ri-gift-line"></i>
+   <span>Offers</span>
+</div>
+
+<!-- Offers Modal -->
+<div id="offersOverlay" class="overlay">
+   <div class="overlay-content">
+      <span class="close">&times;</span>
+      <h2>Exclusive Offers & Promotions</h2>
+      <p>Save on your next mobile repair service with our latest promotions! Check out the limited-time offers below and take advantage of great deals on repairs.</p>
+
+      <!-- Offers List -->
+      <div class="offers-list">
+         <!-- Offer 1 -->
+         <div class="offer">
+            <h3>10% Off Screen Repairs</h3>
+            <p>Get 10% off any screen repair for iPhones, Samsung, and other models. Valid until the end of the month!</p>
+            <p class="validity">Expires: 30th September 2024</p>
+         </div>
+
+         <!-- Offer 2 -->
+         <div class="offer">
+            <h3>Free Screen Protector with Screen Replacement</h3>
+            <p>Receive a free tempered glass screen protector when you replace your phone screen with us. Keep your phone protected!</p>
+            <p class="validity">Expires: 31st October 2024</p>
+         </div>
+
+         <!-- Offer 3 -->
+         <div class="offer">
+            <h3>20% Off Water Damage Repairs</h3>
+            <p>Save 20% on water damage repairs to bring your phone back to life after an accidental spill.</p>
+            <p class="validity">Expires: 15th November 2024</p>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+<!-- ========================Forth Row=============================--->
+
+<!-- Privacy Policy Icon -->
+         <div class="icon" data-target="privacyPolicyOverlay" onclick="openOverlay('privacyPolicyOverlay')">
+            <i class="ri-lock-line"></i>
+            <span>Privacy Policy</span>
+         </div>
+         <!-- Privacy Policy Modal -->
+         <div id="privacyPolicyOverlay" class="overlay">
+            <div class="overlay-content">
+               <!-- Close Button -->
+               <span class="close" onclick="closeOverlay('privacyPolicyOverlay')">&times;</span>
+               
+               <!-- Modal Title -->
+               <h2>Privacy Policy</h2>
+
+               <!-- Scrollable Content Area -->
+               <div class="privacy-policy-content">
+                  <p>At Mobile Medic, your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information.</p>
+
+                  <!-- Section 1: Information Collection -->
+                  <h3>1. Information We Collect</h3>
+                  <p>We may collect personal information, including your name, email address, phone number, and payment details, when you use our services. This includes actions such as booking a repair, signing up for newsletters, or contacting support.</p>
+
+                  <!-- Section 2: Information Use -->
+                  <h3>2. How We Use Your Information</h3>
+                  <p>Your information helps us provide, maintain, and improve our services. This includes processing transactions, responding to customer requests, and informing you about promotions and updates related to our services.</p>
+
+                  <!-- Section 3: Data Sharing and Disclosure -->
+                  <h3>3. Data Sharing and Disclosure</h3>
+                  <p>We do not sell or trade your personal information with third parties. We may only share your information as required by law or as necessary to provide our services, such as sharing data with payment processors or delivery services.</p>
+
+                  <!-- Section 4: Data Security -->
+                  <h3>4. Data Security</h3>
+                  <p>We implement appropriate security measures to protect your data. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+
+                  <!-- Section 5: Your Rights -->
+                  <h3>5. Your Rights</h3>
+                  <p>You can access, update, or delete your personal information at any time. If you wish to exercise your rights, please contact us at <a href="mailto:admin@mobilemedic.au">admin@mobilemedic.au</a>.</p>
+
+                  <!-- Section 6: Cookies -->
+                  <h3>6. Cookies</h3>
+                  <p>Our website uses cookies to enhance your experience. Cookies help us analyze site traffic and customize content based on your preferences. You can disable cookies in your browser settings, but doing so may limit the functionality of some features on our website.</p>
+
+                  <!-- Section 7: Privacy Policy Updates -->
+                  <h3>7. Changes to This Privacy Policy</h3>
+                  <p>We may update this Privacy Policy periodically. Any changes will be posted on this page, and we encourage you to review it regularly to stay informed about how we protect your information.</p>
+
+                  <!-- Section 8: Contact Us -->
+                  <h3>8. Contact Us</h3>
+                  <p>If you have questions or concerns about this Privacy Policy, please contact us at <a href="mailto:admin@mobilemedic.au">admin@mobilemedic.au</a>.</p>
+               </div>
+            </div>
+         </div>
+
+<!-- Careers -->
+         <div class="icon" data-target="careersOverlay">
+            <i class="ri-briefcase-line"></i>
+            <span>Careers</span>
+         </div>
+            <div id="careersOverlay" class="overlay">
+               <div class="overlay-content">
+                  <span class="close">&times;</span>
+                  <h2>Careers</h2>
+                  <p>At Mobile Medic, we are always looking for talented and passionate individuals to join our growing team. If you thrive in a fast-paced environment and are committed to delivering exceptional service, explore the career opportunities we offer. Join us in making a difference in mobile repair services across Melbourne, and take your career to the next level with Mobile Medic.</p>
+               </div>
+            </div>
+
+<!-- Blog -->
+         <div class="icon" data-target="blogOverlay">
+            <i class="ri-article-line"></i>
+            <span>Blog</span>
+         </div>
+
+         <div id="blogOverlay" class="overlay">
+            <div class="overlay-content">
+               <span class="close">&times;</span>
+               <h2>Blog</h2>
+               <p>Stay updated with our latest news, tips, and mobile repair guides in our blog section.</p>
+            </div>
+         </div>
+
+
+<!-- News -->
+      <!-- News Icon Trigger -->
+      <div class="icon" data-target="newsOverlay">
+         <i class="ri-newspaper-line"></i>
+         <span>News</span>
+      </div>
+
+      <!-- News Modal -->
+      <!-- News Icon Trigger -->
+<div id="newsOverlay" class="overlay">
+   <div class="overlay-content">
+      <span class="close">&times;</span>
+      <h2>News</h2>
+      <p>Discover how we're bringing expert mobile phone repairs directly to your doorstep, making the process easier and more convenient than ever.</p>
+
+      <!-- News List -->
+      <div class="news-list">
+         <!-- News Item 1 -->
+         <div class="news-item">
+            <h3>Expanding Our Mobile Service Areas</h3>
+            <p>We're thrilled to announce that our on-site repair services are now available in additional suburbs across Melbourne. Check out the new areas we're servicing!</p>
+            <p class="date">Posted: September 15, 2024</p>
+            <a href="service-areas.html" class="btn">View Service Areas</a>
+         </div>
+
+         <!-- News Item 2 -->
+         <div class="news-item">
+            <h3>Success Story: Quick Repair at Your Office</h3>
+            <p>Learn how we helped Michael get his phone repaired during his lunch break without leaving his office. Our mobile service keeps your day uninterrupted.</p>
+            <p class="date">Posted: September 10, 2024</p>
+            <a href="customer-stories.html" class="btn">Read More</a>
+         </div>
+
+         <!-- News Item 3 -->
+         <div class="news-item">
+            <h3>Introducing Our New Mobile Repair Vans</h3>
+            <p>Our fleet has grown! Our new vans are fully equipped with the latest tools and technology to handle a wider range of repairs on the spot.</p>
+            <p class="date">Posted: September 5, 2024</p>
+            <a href="our-fleet.html" class="btn">Learn More</a>
+         </div>
+
+         <!-- News Item 4 -->
+         <div class="news-item">
+            <h3>Contactless On-Site Repairs Now Available</h3>
+            <p>Your safety is our priority. We've implemented contactless repair options to ensure you can get your device fixed with minimal contact.</p>
+            <p class="date">Posted: September 1, 2024</p>
+            <a href="contactless-service.html" class="btn">How It Works</a>
+         </div>
+
+         <!-- News Item 5 -->
+         <div class="news-item">
+            <h3>Mobile Repairs for Businesses</h3>
+            <p>Businesses can now enjoy our on-site repair services for multiple devices. Keep your team connected without the hassle of leaving the office.</p>
+            <p class="date">Posted: August 28, 2024</p>
+            <a href="business-services.html" class="btn">Explore Business Services</a>
+         </div>
+      </div>
+   </div>
+</div>
+
+       </div>
+   </div>
+</div>
+   
+
+
+<!--=================== RIGHT SECTION ======================== -->
+<div class="hero__right">
+   <div class="extra-content">
+     <h2>What Our Customers Say</h2>
+     <div class="reviews__grid">
+       <!-- Review 1 -->
+       <div class="review">
+         <p class="review__text">"Great service! My iPhone was fixed in under an hour and they came to my house!"</p>
+         <div class="review__author">
+           <h3>John</h3>
+         </div>
+       </div>
+ 
+       <!-- Review 2 -->
+       <div class="review">
+         <p class="review__text">"Very professional and affordable. I will definitely recommend them."</p>
+         <div class="review__author">
+           <h3>Jane</h3>
+         </div>
+       </div>
+ 
+       <!-- Review 3 -->
+       <div class="review">
+         <p class="review__text">"Fast and convenient! I didn’t have to leave my office to get my phone fixed."</p>
+         <div class="review__author">
+           <h3>Mark</h3>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ 
+ <!-- Footer Section -->
+<footer class="footer">
+   <div class="footer__content">
+     <p>&copy; 2024 Mobile Medic. All rights reserved.</p>
+   </div>
+ </footer>
+    
+</body>   
+    <!-- Adding Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'YOUR_GA_ID');
+   </script>
+
+   <script src="/js/script.js"></script>
+
+</html>
+ 
