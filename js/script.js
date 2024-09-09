@@ -224,9 +224,9 @@ function openPopup(url, title) {
 }
 
 function bookRepair() {
-  openPopup("book_repair.php", "Book Repair");
+  openPopup("book_repair.html", "Book Repair");
 }
 
 function mailInRepair() {
-  openPopup("mail_in_service.php", "Mail-In Repair");
+  openPopup("mail_in_service.html", "Mail-In Repair");
 }
