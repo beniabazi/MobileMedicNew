@@ -607,6 +607,61 @@ select {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Slight shadow on hover */
 }
 
+
+/* =================================BOOKING FORM ===============*/
+/* General Form Styling */
+.form-container {
+  width: 68vw; /* Increase width to better fit within mobile phone screen */
+  max-width: 90vw; /* Adjust width for larger phones */
+  max-height: 90vh;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for depth */
+  background: rgba(255, 255, 255, 0.85); /* Slightly less transparency for contrast */
+  border-radius: 55px; /* Rounded corners for modern feel */
+  position: absolute;
+  top: 30%; /* Adjust positioning to fit within phone */
+  left: 50%;
+  transform: translate(-50%, -25%);
+  z-index: 10;
+}
+
+.form-container h2 {
+  font-size: 1.6rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container h1,
+.form-container p{
+  display: none;
+}
+
+.form-container label {
+  font-size: 1.2rem; /* Slightly larger font for better readability */
+  color: #333; /* Use secondary color for labels */
+  margin-bottom: 10px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px 0; /* Adjust margin for consistent spacing */
+  border: 1px solid var(--secondary-color); /* Use theme-based color for border */
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f9f9f9; /* Light background for input fields */
+}
+
+
+
+
+
+
+
+
 /*=================== HERO RIGHT SECTION ========================*/
 /* Reviews Grid */
 .reviews__grid {
@@ -1147,6 +1202,52 @@ select {
   font-weight: bold;
   text-shadow: 2px 2px 4px #000000;
 }
+
+.form-container {
+  width: 68vw; /* Increase width to better fit within mobile phone screen */
+  max-width: 90vw; /* Adjust width for larger phones */
+  max-height: 90vh;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for depth */
+  background: rgba(255, 255, 255, 0.85); /* Slightly less transparency for contrast */
+  border-radius: 55px; /* Rounded corners for modern feel */
+  position: absolute;
+  top: 30%; /* Adjust positioning to fit within phone */
+  left: 50%;
+  transform: translate(-50%, -25%);
+  z-index: 10;
+}
+
+.form-container h2 {
+  font-size: 1.6rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container h1,
+.form-container p{
+  display: none;
+}
+
+.form-container label {
+  font-size: 1.2rem; /* Slightly larger font for better readability */
+  color: #333; /* Use secondary color for labels */
+  margin-bottom: 10px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px 0; /* Adjust margin for consistent spacing */
+  border: 1px solid var(--secondary-color); /* Use theme-based color for border */
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f9f9f9; /* Light background for input fields */
+}
+
 
 }
 
