@@ -209,6 +209,7 @@ window.onclick = function (event) {
   });
 };
 
+
 /* ===============================BOOKING AND MAIL IN POP UP FUNCTION==================================== */
 
 function openPopup(url, title) {
