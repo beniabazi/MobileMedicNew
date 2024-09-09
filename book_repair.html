@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission with EmailJS</title>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+      })();
+    </script>
+</head>
+<body>
+
+<h2>Booking Form</h2>
+<form id="bookingForm">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone" required>
+
+  <label for="location">Repair Location:</label>
+  <input type="text" id="location" name="location" required>
+
+  <label for="issue">Describe the Issue:</label>
+  <textarea id="issue" name="issue" required></textarea>
+
+  <label for="date">Preferred Date:</label>
+  <input type="date" id="date" name="date" required>
+
+  <label for="time">Preferred Time:</label>
+  <input type="time" id="time" name="time" required>
+
+  <button type="submit">Submit Booking</button>
+</form>
+
+<p id="status"></p>
+
+<script>
+// JavaScript for handling the form submission using EmailJS
+document.getElementById('bookingForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const serviceID = 'YOUR_SERVICE_ID';  // Replace with your EmailJS service ID
+  const templateID = 'YOUR_TEMPLATE_ID'; // Replace with your EmailJS template ID
+
+  emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      document.getElementById('status').innerText = 'Your booking request has been sent successfully!';
+    }, (err) => {
+      document.getElementById('status').innerText = 'There was an error sending your booking request.';
+      console.error('Failed to send booking request:', err);
+    });
+});
+</script>
+
+</body>
+</html>
