@@ -3,39 +3,125 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mail-In Repair Form</title>
+    <meta
+      name="description"
+      content="Submit your mail-in repair request for fast and reliable mobile phone repairs. Send your device to us, and we’ll return it fully repaired."
+    />
+    <meta
+      name="keywords"
+      content="mail-in phone repair, mobile phone repair by mail, iPhone repair by mail, Samsung repair by mail, device repair mail-in"
+    />
+    <meta property="og:title" content="Mail-In Repair Service - Mobile Medic" />
+    <meta
+      property="og:description"
+      content="Submit your mail-in repair request for fast and reliable mobile phone repairs. We’ll fix your device and send it back fully repaired."
+    />
+    <meta
+      property="og:image"
+      content="https://mobilemedic.au/assets/img/mailin.png"
+    />
+    <meta property="og:url" content="https://mobilemedic.au/mail-in-repair" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Mail-In Repair Service - Mobile Medic"
+    />
+    <meta
+      name="twitter:description"
+      content="Submit your mail-in repair request for fast and reliable mobile phone repairs. We’ll fix your device and send it back fully repaired."
+    />
+    <meta
+      name="twitter:image"
+      content="https://mobilemedic.au/assets/img/mailin.png"
+    />
+
+    <title>Mail-In Repair Service - Mobile Medic</title>
+
+    <!-- Schema Markup for Local Business -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobilePhoneRepairService",
+        "name": "Mobile Medic",
+        "image": "https://mobilemedic.au/assets/img/mailin.png",
+        "url": "https://mobilemedic.au/mail-in-repair",
+        "telephone": "+61 466 855 790",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Your Street Address",
+          "addressLocality": "Tullamarine",
+          "addressRegion": "VIC",
+          "postalCode": "3043",
+          "addressCountry": "AU"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -37.701,
+          "longitude": 144.8876
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      }
+    </script>
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- EmailJS Integration -->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
     <script type="text/javascript">
       (function () {
-        emailjs.init("LHLLyCVzfGtnXlZON"); // Replace with your EmailJS user ID
+        emailjs.init("LHLLyCVzfGtnXlZON"); // Replace with your EmailJS public key
       })();
     </script>
   </head>
   <body>
-    <h2>Mail-In Repair Form</h2>
-    <form id="mailInForm">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
+    <!-- Main content for the mail-in repair service -->
+    <main>
+      <h1>Mail-In Repair Service</h1>
+      <p>
+        Submit your mail-in repair request for fast, reliable mobile phone
+        repairs. Send us your device, and we’ll repair it and send it back to
+        you. Fill out the form below to get started.
+      </p>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
+      <h2>Mail-In Repair Request Form</h2>
+      <form id="mailInForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
 
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
 
-      <label for="device">Device Model:</label>
-      <input type="text" id="device" name="device" required />
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
 
-      <label for="issue">Describe the Issue:</label>
-      <textarea id="issue" name="issue" required></textarea>
+        <label for="device">Device Model:</label>
+        <input type="text" id="device" name="device" required />
 
-      <label for="address">Return Address:</label>
-      <input type="text" id="address" name="address" required />
+        <label for="issue">Describe the Issue:</label>
+        <textarea id="issue" name="issue" required></textarea>
 
-      <button type="submit">Submit Mail-In Request</button>
-    </form>
+        <label for="address">Return Address:</label>
+        <input type="text" id="address" name="address" required />
 
-    <p id="status"></p>
+        <button type="submit">Submit Mail-In Request</button>
+      </form>
+
+      <p id="status"></p>
+    </main>
 
     <script>
       // JavaScript for handling the form submission using EmailJS
