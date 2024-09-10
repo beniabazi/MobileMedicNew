@@ -19,7 +19,6 @@
 }
 
 body {
-  background-color: #1e1e2d; /* Dark grey background color */
   background-image: url("/img/bg_large.png"); /* Background image */
 <<<<<<< HEAD
   background-size:cover; /* Set a fixed size for the background image */
