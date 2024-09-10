@@ -122,6 +122,10 @@ body {
 
 /*=================== HERO CENTER SECTION ========================*/
 .hero__center {
+  background-color: #1e1e2d; /* Dark grey background color */
+  background-image: url("/img/phone.jpg"); /* Background image */
+  background-size: 2400px 1080px; /* Set a fixed size for the background image */
+  background-position: center -10vh; /* Move the background image lower*/
   display: flex;
   justify-content: center;
   align-items: center;
