@@ -1247,9 +1247,30 @@ select {
   font-size: 1rem;
   background-color: #f9f9f9; /* Light background for input fields */
 }
-
-
+.popup-container {
+  max-width: 90%;
+  padding: 15px;
 }
+
+.popup-container h2 {
+  font-size: 1.2rem;
+}
+
+.popup-container form label {
+  font-size: 0.9rem;
+}
+
+.popup-container form input,
+.popup-container form textarea {
+  font-size: 0.9rem;
+}
+
+.popup-container form button {
+  font-size: 1rem;
+  padding: 12px;
+}
+}
+
 
 
 /* =========================== TABLET STYLING ============================= */
