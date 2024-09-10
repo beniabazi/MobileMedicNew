@@ -157,6 +157,8 @@ body {
   background-size: 390px 748px; /* Set a fixed size for the background image */
   background-position: center; /* Move the background image lower by 30vh */
   background-repeat: no-repeat; /* Prevents the image from repeating */
+  box-shadow: 0px 5px 50px rgba(253, 253, 253, 0.678); /* Subtle shadow for depth */
+
   border-radius: 50px;
   min-width: 390px;
   max-width: 390px;
