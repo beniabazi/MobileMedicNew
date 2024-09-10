@@ -21,7 +21,7 @@
 body {
   background-color: #1e1e2d; /* Dark grey background color */
   background-image: url("/img/bg_large.png"); /* Background image */
-  background-size: 1920px 1080px; /* Set a fixed size for the background image */
+  background-size: 2400px 1080px; /* Set a fixed size for the background image */
   background-position: center -10vh; /* Move the background image lower by 30vh */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   padding: 0;
