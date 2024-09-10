@@ -19,16 +19,11 @@
 }
 
 body {
+  background-color: #1e1e2d; /* Dark grey background color */
   background-image: url("/img/bg_large.png"); /* Background image */
-<<<<<<< HEAD
   background-size:cover; /* Set a fixed size for the background image */
   background-position: center; /* Move the background image lower by 30vh */
   background-repeat:no-repeat; /* Prevents the image from repeating */
-=======
-  background-size: 2400px 1080px; /* Set a fixed size for the background image */
-  background-position: center -10vh; /* Move the background image lower by 30vh */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
->>>>>>> 2943bef2975b90d0d7e9c332618306401b9e1934
   padding: 0;
   color: white; /* Text color to ensure readability */
 }
@@ -127,10 +122,6 @@ body {
 
 /*=================== HERO CENTER SECTION ========================*/
 .hero__center {
-  background-color: #1e1e2d; /* Dark grey background color */
-  background-image: url("/img/phone.jpg"); /* Background image */
-  background-size: 2400px 1080px; /* Set a fixed size for the background image */
-  background-position: center -10vh; /* Move the background image lower*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,7 +153,6 @@ body {
 
 /*===== Container for the phone ========*/
 .phone-container {
-  background-color: #1e1e2d; /* Dark grey background color */
   background-image: url("/img/phone.jpg"); /* Background image */
   background-size: 390px 748px; /* Set a fixed size for the background image */
   background-position: center; /* Move the background image lower by 30vh */
