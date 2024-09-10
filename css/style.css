@@ -21,9 +21,9 @@
 body {
   background-color: #1e1e2d; /* Dark grey background color */
   background-image: url("/img/bg_large.png"); /* Background image */
-  background-size: 1920px 1080px; /* Set a fixed size for the background image */
-  background-position: center -10vh; /* Move the background image lower by 30vh */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size:cover; /* Set a fixed size for the background image */
+  background-position: center; /* Move the background image lower by 30vh */
+  background-repeat:no-repeat; /* Prevents the image from repeating */
   padding: 0;
   color: white; /* Text color to ensure readability */
 }
@@ -153,19 +153,26 @@ body {
 
 /*===== Container for the phone ========*/
 .phone-container {
+  background-color: #1e1e2d; /* Dark grey background color */
+  background-image: url("/img/phone.jpg"); /* Background image */
+  background-size: 390px 748px; /* Set a fixed size for the background image */
+  background-position: center; /* Move the background image lower by 30vh */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  border-radius: 50px;
   min-width: 390px;
   max-width: 390px;
-  min-height: 690px;
+  min-height: 750px;
   max-height: 690px;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9999;
 }
 
 /* Add new style for the image section */
 .image-section {
   position: absolute;
-  top: -20px; /* Adjust the position */
+  top: -0px; /* Adjust the position */
   max-width: 250px; /* Adjust image width */
 }
 
@@ -185,7 +192,8 @@ body {
   max-width: 330px;
   max-height: 400px;
   min-height: 380px;
-  margin-top: 150px;
+  margin-top: 220px;
+  
 }
 
 .icon {
@@ -263,14 +271,14 @@ body {
   left: 0;
   width: 100vw; /* Cover full width */
   height: 100vh; /* Cover full height */
-  background-color: rgba(0, 0, 0, 0.089); /* Semi-transparent dark background */
+  background-color: rgba(0, 0, 0, 0.466); /* Semi-transparent dark background */
   z-index: 1000; /* High z-index to overlay other content */
 }
 
 /* Ensure the modal content is scrollable */
 .overlay-content {
   position: absolute;
-  top: 45%; /* Center vertically */
+  top: 50%; /* Center vertically */
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Center the content within the overlay */
   width: 90%; /* Take up most of the screen width on mobile */
